@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Gestor de Vendas</string>
+    <string name="action_list">Nova Venda</string>
+    <string name="nova_venda">Nova Venda</string>
+    <string name="novo_cliente">Novo Cliente</string>
+    <string name="novo_produto">Novo Produto</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="clientes_array">
+        <item>João do Feijão</item>
+        <item>Marcelo Amarelo</item>
+        <item>Caique Cacique</item>
+        <item>Paris Wilton</item>
+        <item>Ikaro Bárbaro</item>
+        <item>Fucking Fuchs</item>
+        <item>João Ninguém</item>
+        <item>João Ninguém</item>
+        <item>João Ninguém</item>
+    </string-array>
+</resources>
