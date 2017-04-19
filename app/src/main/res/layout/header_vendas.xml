@@ -18,7 +18,7 @@
         android:textSize="20dp"
         android:layout_centerVertical="true"/>
     <Spinner
-        android:layout_width="wrap_content"
+        android:layout_width="160dp"
         android:layout_height="wrap_content"
         android:id="@+id/spinner"
         android:focusable="false"
@@ -27,14 +27,17 @@
         android:layout_toRightOf="@+id/clientestxt"
         android:layout_toEndOf="@+id/clientestxt" />
 
-    <ImageButton
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
-        android:src="@android:drawable/ic_input_add"
-        android:layout_centerVertical="true"
-        android:layout_toRightOf="@+id/spinner"
-        android:paddingLeft="10dp"/>
+        android:id="@+id/button_add"
+        android:src="@drawable/add"
+        android:clickable="true"
+        android:layout_alignTop="@+id/spinner"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="77dp"
+        android:layout_marginEnd="77dp" />
 
 
 </RelativeLayout>

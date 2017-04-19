@@ -18,7 +18,7 @@ public class Produtos extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.produtos_layout, container, false);
         ArrayList<String> nomes = new ArrayList<String>();
-        nomes.add("30");
+        nomes.add("Produto 1");
         nomes.add("Produto 2");
         nomes.add("Produto 3");
         nomes.add("Produto 4");

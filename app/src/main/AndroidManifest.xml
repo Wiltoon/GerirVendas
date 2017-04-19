@@ -21,8 +21,10 @@
         <activity
             android:name=".Venda"
             android:label="@string/nova_venda" />
-        <activity android:name=".NovoCliente" />
-        <activity android:name=".NovoProduto"></activity>
+        <activity android:name=".NovoCliente"
+            android:label="@string/novo_cliente"/>
+        <activity android:name=".NovoProduto"
+            android:label="@string/novo_produto"></activity>
     </application>
     <!--<uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>-->
 
