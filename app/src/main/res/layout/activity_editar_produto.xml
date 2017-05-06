@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.93">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Nome:"
+            android:id="@+id/textViewProduto"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="20dp"
+            />
+
+        <EditText
+            android:id="@+id/editTextProduto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewProduto"
+            android:layout_alignStart="@+id/textViewProduto"
+            android:layout_below="@+id/textViewProduto"
+            android:layout_marginRight="20dp"
+            android:inputType="textCapWords"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/textViewCliente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewProduto"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/textViewProduto"
+            android:layout_below="@+id/editTextProduto"
+            android:layout_marginTop="80dp"
+            android:text="Valor (R$):"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editTextCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textViewCliente"
+            android:layout_alignStart="@+id/textViewCliente"
+            android:layout_below="@+id/textViewCliente"
+            android:layout_marginRight="20dp"
+            android:inputType="numberDecimal"
+            android:singleLine="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Alterar"
+            android:id="@+id/buttonAlterar"
+            android:textColor="#276bea"
+            android:typeface="monospace"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
